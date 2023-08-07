@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-body-tertiary{
+    background-image: url('https://c2s.gov.in/images/tapbarbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    .cont{
+        display: flex;
+    }
+
+    .bg-body-tertiary{
+        background-image: url('https://c2s.gov.in/images/tapbarbg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 789px) {
+
+    .NavBarBrand{
+        padding: 1rem 1rem;
+    }
+
+}

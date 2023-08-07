@@ -1,0 +1,39 @@
+.name-group{
+    display: flex;
+    flex-direction: row;
+    margin: 3vh 0vh;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+.showPasswordIcon{
+  position: absolute;
+  top: 60%;
+  right: 11%;
+  font-size: larger;
+  cursor: pointer;
+}
+  
+  

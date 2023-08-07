@@ -1,0 +1,138 @@
+.body {
+    background-color: rgb(242, 242, 242);
+    overflow-x: hidden;
+    /* background: none; */
+}
+/* Customizing the scrollbar track */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar track */
+  }
+  
+  /* Customizing the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Border radius of the scrollbar thumb */
+  }
+  
+  /* Customizing the scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+  }
+  
+  /* Customizing the scrollbar track when scrollbar is in a "decrement" state (e.g., when scrolling up) */
+  ::-webkit-scrollbar-button:start:decrement,
+  ::-webkit-scrollbar-button:end:increment {
+    display: block;
+    background-color: #ddd; /* Color of the scrollbar track in the decrement/increment state */
+  }
+  
+  /* Customizing the scrollbar track when scrollbar is in an "increment" state (e.g., when scrolling down) */
+  ::-webkit-scrollbar-button:start:increment,
+  ::-webkit-scrollbar-button:end:decrement {
+    display: block;
+    background-color: #ddd; /* Color of the scrollbar track in the increment/decrement state */
+  }
+  
+  /* Hiding the scrollbar track when scrollbar is in a "decrement" state */
+  ::-webkit-scrollbar-button:vertical {
+    display: none;
+  }
+  
+  /* Customizing the scrollbar corner (intersection of vertical and horizontal scrollbars) */
+  ::-webkit-scrollbar-corner {
+    background-color: #f0f0f0; /* Color of the scrollbar corner */
+  }
+
+  
+/* 
+.modal-backdrop {
+    display: none;
+  } */
+
+.header-div {
+    width: 100vw;
+    height: 70vh;
+    /* background-image: url('https://thumbs.dreamstime.com/b/summer-bbq-food-side-border-hot-dog-hamburger-buffet-top-down-table-scene-over-dark-slate-background-copy-space-188461475.jpg'); */
+    background-image: linear-gradient(186deg, rgb(255, 124, 1), rgb(251, 255, 17));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-pic {
+    /* background-image: url(''); */
+    height: 12vw;
+    width: 14vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardd-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    bottom: 11vh;
+}
+
+.cardd {
+    /* border: 2px solid black; */
+    border: white 1px solid;
+    height: 12vw;
+    width: 14vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 0px 20px rgb(83,83,83) ; */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .cardd {
+        border-radius: 7px;
+        height: 11vh;
+        width: 19vw;
+    }
+
+    .cardd-cont {
+        bottom: 5vh;
+    }
+
+    .ic {
+        display: flex;
+        font-size: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.personal-grand-cont{
+    height: 70vh;
+    margin: 0px 11vw;
+}
+
+.inputbox{
+    width: 30vw;
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+.fields-cont{
+    margin: 5vh 0vh;
+}
+.editfunc{
+    color: blue;
+    margin-left: 24vw;
+    cursor: pointer;
+}

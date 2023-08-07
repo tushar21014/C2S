@@ -1,0 +1,15 @@
+#form-container{
+    /* min-height: 80vh; */
+    width: 70vw;
+}
+
+#user-dashboard-cont{
+    background-image: url('https://img.freepik.com/premium-vector/abstract-geometric-background-bright-colors_336924-5849.jpg?w=2000');
+    min-height: 92vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
